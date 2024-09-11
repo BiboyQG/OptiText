@@ -45,6 +45,7 @@
 		828A07192C91EF17009581E6 /* OptiTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptiTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		828A071D2C91EF17009581E6 /* OptiTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiTextUITests.swift; sourceTree = "<group>"; };
 		828A071F2C91EF17009581E6 /* OptiTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		828A072C2C91F334009581E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		828A07002C91EF16009581E6 /* OptiText */ = {
 			isa = PBXGroup;
 			children = (
+				828A072C2C91F334009581E6 /* Info.plist */,
 				828A07012C91EF16009581E6 /* OptiTextApp.swift */,
 				828A07032C91EF16009581E6 /* ContentView.swift */,
 				828A07052C91EF17009581E6 /* Assets.xcassets */,
@@ -427,6 +429,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OptiText/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OptiText/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OptiText/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OptiText/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
