@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		828A07022C91EF16009581E6 /* OptiTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A07012C91EF16009581E6 /* OptiTextApp.swift */; };
+		828A07042C91EF16009581E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A07032C91EF16009581E6 /* ContentView.swift */; };
+		828A07062C91EF17009581E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828A07052C91EF17009581E6 /* Assets.xcassets */; };
+		828A07092C91EF17009581E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828A07082C91EF17009581E6 /* Preview Assets.xcassets */; };
+		828A07142C91EF17009581E6 /* OptiTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A07132C91EF17009581E6 /* OptiTextTests.swift */; };
+		828A071E2C91EF17009581E6 /* OptiTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A071D2C91EF17009581E6 /* OptiTextUITests.swift */; };
+		828A07202C91EF17009581E6 /* OptiTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A071F2C91EF17009581E6 /* OptiTextUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		828A07102C91EF17009581E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 828A06F62C91EF16009581E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828A06FD2C91EF16009581E6;
+			remoteInfo = OptiText;
+		};
+		828A071A2C91EF17009581E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 828A06F62C91EF16009581E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828A06FD2C91EF16009581E6;
+			remoteInfo = OptiText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		828A06FE2C91EF16009581E6 /* OptiText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptiText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		828A07012C91EF16009581E6 /* OptiTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiTextApp.swift; sourceTree = "<group>"; };
+		828A07032C91EF16009581E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		828A07052C91EF17009581E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		828A07082C91EF17009581E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		828A070A2C91EF17009581E6 /* OptiText.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OptiText.entitlements; sourceTree = "<group>"; };
+		828A070F2C91EF17009581E6 /* OptiTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptiTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		828A07132C91EF17009581E6 /* OptiTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiTextTests.swift; sourceTree = "<group>"; };
+		828A07192C91EF17009581E6 /* OptiTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptiTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		828A071D2C91EF17009581E6 /* OptiTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiTextUITests.swift; sourceTree = "<group>"; };
+		828A071F2C91EF17009581E6 /* OptiTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828A06FB2C91EF16009581E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828A070C2C91EF17009581E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828A07162C91EF17009581E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828A06F52C91EF16009581E6 = {
+			isa = PBXGroup;
+			children = (
+				828A07002C91EF16009581E6 /* OptiText */,
+				828A07122C91EF17009581E6 /* OptiTextTests */,
+				828A071C2C91EF17009581E6 /* OptiTextUITests */,
+				828A06FF2C91EF16009581E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828A06FF2C91EF16009581E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828A06FE2C91EF16009581E6 /* OptiText.app */,
+				828A070F2C91EF17009581E6 /* OptiTextTests.xctest */,
+				828A07192C91EF17009581E6 /* OptiTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828A07002C91EF16009581E6 /* OptiText */ = {
+			isa = PBXGroup;
+			children = (
+				828A07012C91EF16009581E6 /* OptiTextApp.swift */,
+				828A07032C91EF16009581E6 /* ContentView.swift */,
+				828A07052C91EF17009581E6 /* Assets.xcassets */,
+				828A070A2C91EF17009581E6 /* OptiText.entitlements */,
+				828A07072C91EF17009581E6 /* Preview Content */,
+			);
+			path = OptiText;
+			sourceTree = "<group>";
+		};
+		828A07072C91EF17009581E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				828A07082C91EF17009581E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		828A07122C91EF17009581E6 /* OptiTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				828A07132C91EF17009581E6 /* OptiTextTests.swift */,
+			);
+			path = OptiTextTests;
+			sourceTree = "<group>";
+		};
+		828A071C2C91EF17009581E6 /* OptiTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				828A071D2C91EF17009581E6 /* OptiTextUITests.swift */,
+				828A071F2C91EF17009581E6 /* OptiTextUITestsLaunchTests.swift */,
+			);
+			path = OptiTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828A06FD2C91EF16009581E6 /* OptiText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828A07232C91EF17009581E6 /* Build configuration list for PBXNativeTarget "OptiText" */;
+			buildPhases = (
+				828A06FA2C91EF16009581E6 /* Sources */,
+				828A06FB2C91EF16009581E6 /* Frameworks */,
+				828A06FC2C91EF16009581E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptiText;
+			productName = OptiText;
+			productReference = 828A06FE2C91EF16009581E6 /* OptiText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		828A070E2C91EF17009581E6 /* OptiTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828A07262C91EF17009581E6 /* Build configuration list for PBXNativeTarget "OptiTextTests" */;
+			buildPhases = (
+				828A070B2C91EF17009581E6 /* Sources */,
+				828A070C2C91EF17009581E6 /* Frameworks */,
+				828A070D2C91EF17009581E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828A07112C91EF17009581E6 /* PBXTargetDependency */,
+			);
+			name = OptiTextTests;
+			productName = OptiTextTests;
+			productReference = 828A070F2C91EF17009581E6 /* OptiTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		828A07182C91EF17009581E6 /* OptiTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828A07292C91EF17009581E6 /* Build configuration list for PBXNativeTarget "OptiTextUITests" */;
+			buildPhases = (
+				828A07152C91EF17009581E6 /* Sources */,
+				828A07162C91EF17009581E6 /* Frameworks */,
+				828A07172C91EF17009581E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828A071B2C91EF17009581E6 /* PBXTargetDependency */,
+			);
+			name = OptiTextUITests;
+			productName = OptiTextUITests;
+			productReference = 828A07192C91EF17009581E6 /* OptiTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828A06F62C91EF16009581E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					828A06FD2C91EF16009581E6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					828A070E2C91EF17009581E6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 828A06FD2C91EF16009581E6;
+					};
+					828A07182C91EF17009581E6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 828A06FD2C91EF16009581E6;
+					};
+				};
+			};
+			buildConfigurationList = 828A06F92C91EF16009581E6 /* Build configuration list for PBXProject "OptiText" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 828A06F52C91EF16009581E6;
+			productRefGroup = 828A06FF2C91EF16009581E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828A06FD2C91EF16009581E6 /* OptiText */,
+				828A070E2C91EF17009581E6 /* OptiTextTests */,
+				828A07182C91EF17009581E6 /* OptiTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828A06FC2C91EF16009581E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828A07092C91EF17009581E6 /* Preview Assets.xcassets in Resources */,
+				828A07062C91EF17009581E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828A070D2C91EF17009581E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828A07172C91EF17009581E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828A06FA2C91EF16009581E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828A07042C91EF16009581E6 /* ContentView.swift in Sources */,
+				828A07022C91EF16009581E6 /* OptiTextApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828A070B2C91EF17009581E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828A07142C91EF17009581E6 /* OptiTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828A07152C91EF17009581E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828A07202C91EF17009581E6 /* OptiTextUITestsLaunchTests.swift in Sources */,
+				828A071E2C91EF17009581E6 /* OptiTextUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		828A07112C91EF17009581E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828A06FD2C91EF16009581E6 /* OptiText */;
+			targetProxy = 828A07102C91EF17009581E6 /* PBXContainerItemProxy */;
+		};
+		828A071B2C91EF17009581E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828A06FD2C91EF16009581E6 /* OptiText */;
+			targetProxy = 828A071A2C91EF17009581E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		828A07212C91EF17009581E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		828A07222C91EF17009581E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		828A07242C91EF17009581E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OptiText/OptiText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OptiText/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biboyqg.OptiText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		828A07252C91EF17009581E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OptiText/OptiText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OptiText/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biboyqg.OptiText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		828A07272C91EF17009581E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biboyqg.OptiTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptiText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptiText";
+			};
+			name = Debug;
+		};
+		828A07282C91EF17009581E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biboyqg.OptiTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptiText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptiText";
+			};
+			name = Release;
+		};
+		828A072A2C91EF17009581E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biboyqg.OptiTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OptiText;
+			};
+			name = Debug;
+		};
+		828A072B2C91EF17009581E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biboyqg.OptiTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OptiText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828A06F92C91EF16009581E6 /* Build configuration list for PBXProject "OptiText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828A07212C91EF17009581E6 /* Debug */,
+				828A07222C91EF17009581E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828A07232C91EF17009581E6 /* Build configuration list for PBXNativeTarget "OptiText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828A07242C91EF17009581E6 /* Debug */,
+				828A07252C91EF17009581E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828A07262C91EF17009581E6 /* Build configuration list for PBXNativeTarget "OptiTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828A07272C91EF17009581E6 /* Debug */,
+				828A07282C91EF17009581E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828A07292C91EF17009581E6 /* Build configuration list for PBXNativeTarget "OptiTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828A072A2C91EF17009581E6 /* Debug */,
+				828A072B2C91EF17009581E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828A06F62C91EF16009581E6 /* Project object */;
+}
