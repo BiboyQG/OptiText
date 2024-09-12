@@ -16,7 +16,7 @@ The dmg file can be found in the releases section.
 
 1. Download the dmg file and install the application
 2. Open the application
-3. Use the shortcut to capture the current window and translate the selected text in the pop-up window
+3. Use the shortcut (customizable) to capture the current window and translate the selected text in the pop-up window
 4. Click the "Translate" button or hit `return` to translate the selected text
 5. The translated text will be displayed in the pop-up window
 
