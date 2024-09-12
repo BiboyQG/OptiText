@@ -8,6 +8,11 @@
 import SwiftUI
 import AppKit
 import QuickLook
+import KeyboardShortcuts
+
+extension KeyboardShortcuts.Name {
+    static let captureScreenshot = Self("captureScreenshot")
+}
 
 struct ContentView: View {
     @State private var screenshotURL: URL?
@@ -16,16 +21,13 @@ struct ContentView: View {
         VStack {
             Text("Press Shift+Option+C to capture a screenshot")
                 .padding()
+            KeyboardShortcuts.Recorder(for: .captureScreenshot)
         }
         .padding()
         .quickLookPreview($screenshotURL)
         .onAppear {
-            NSEvent.addLocalMonitorForEvents(matching: .keyDown) { event in
-                if event.modifierFlags.contains([.shift, .option]) && event.keyCode == 8 { // 8 is the key code for 'C'
-                    captureScreenshot()
-                    return nil
-                }
-                return event
+            KeyboardShortcuts.onKeyDown(for: .captureScreenshot) {
+                captureScreenshot()
             }
         }
     }
