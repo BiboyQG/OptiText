@@ -14,12 +14,20 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Button("Capture Screenshot") {
-                captureScreenshot()
-            }
+            Text("Press Shift+Option+C to capture a screenshot")
+                .padding()
         }
         .padding()
         .quickLookPreview($screenshotURL)
+        .onAppear {
+            NSEvent.addLocalMonitorForEvents(matching: .keyDown) { event in
+                if event.modifierFlags.contains([.shift, .option]) && event.keyCode == 8 { // 8 is the key code for 'C'
+                    captureScreenshot()
+                    return nil
+                }
+                return event
+            }
+        }
     }
     
     func captureScreenshot() {

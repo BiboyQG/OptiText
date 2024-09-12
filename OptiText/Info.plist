@@ -4,5 +4,7 @@
 <dict>
 	<key>NSScreenCaptureUsageDescription</key>
 	<string>This app needs access to capture your screen for OCR processing.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>This app needs to register a global hotkey for screenshot capture.</string>
 </dict>
 </plist>
