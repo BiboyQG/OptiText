@@ -14,7 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Press Shift+Option+C to capture a screenshot")
+            Text("Press shortcut to capture a screenshot")
                 .padding()
             KeyboardShortcuts.Recorder(for: .captureScreenshot)
             if let url = screenshotURL {
