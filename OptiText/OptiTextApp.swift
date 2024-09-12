@@ -9,6 +9,11 @@ import SwiftUI
 import KeyboardShortcuts
 import Quartz
 
+// Add this extension at the top of the file, outside of any struct or class
+extension KeyboardShortcuts.Name {
+    static let captureScreenshot = Self("captureScreenshot")
+}
+
 @main
 struct OptiTextApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
