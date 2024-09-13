@@ -139,13 +139,11 @@ struct FloatingWindowView: View {
     
     var body: some View {
         VStack {
-            TextField("Input 1", text: $input1)
+            TextField("Context sentence", text: $input1)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
             
-            TextField("Input 2", text: $input2)
+            TextField("Word to translate", text: $input2)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
         }
         .frame(width: 300, height: 200)
         .background(Color(NSColor.windowBackgroundColor.withAlphaComponent(0.9)))
