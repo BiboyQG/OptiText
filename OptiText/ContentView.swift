@@ -11,6 +11,7 @@ import KeyboardShortcuts
 struct ContentView: View {
     @Binding var screenshotURL: URL?
     @Binding var isPreviewPresented: Bool
+    @Binding var isFloatingWindowPresented: Bool
     
     var body: some View {
         VStack {
@@ -31,5 +32,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(screenshotURL: .constant(nil), isPreviewPresented: .constant(false))
+    ContentView(screenshotURL: .constant(nil), isPreviewPresented: .constant(false), isFloatingWindowPresented: .constant(false))
 }
