@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8205E33A2C931E2E008E512D /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 8205E3392C931E2E008E512D /* KeyboardShortcuts */; };
+		820F04D02C94C886003C2033 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 820F04CF2C94C886003C2033 /* OpenAI */; };
 		828A07022C91EF16009581E6 /* OptiTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A07012C91EF16009581E6 /* OptiTextApp.swift */; };
 		828A07042C91EF16009581E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A07032C91EF16009581E6 /* ContentView.swift */; };
 		828A07062C91EF17009581E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828A07052C91EF17009581E6 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820F04D02C94C886003C2033 /* OpenAI in Frameworks */,
 				8205E33A2C931E2E008E512D /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +161,7 @@
 			name = OptiText;
 			packageProductDependencies = (
 				8205E3392C931E2E008E512D /* KeyboardShortcuts */,
+				820F04CF2C94C886003C2033 /* OpenAI */,
 			);
 			productName = OptiText;
 			productReference = 828A06FE2C91EF16009581E6 /* OptiText.app */;
@@ -234,6 +237,7 @@
 			mainGroup = 828A06F52C91EF16009581E6;
 			packageReferences = (
 				8205E3372C931DA9008E512D /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				820F04CE2C94C886003C2033 /* XCRemoteSwiftPackageReference "OpenAI" */,
 			);
 			productRefGroup = 828A06FF2C91EF16009581E6 /* Products */;
 			projectDirPath = "";
@@ -603,6 +607,14 @@
 				minimumVersion = 2.0.2;
 			};
 		};
+		820F04CE2C94C886003C2033 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -610,6 +622,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8205E3372C931DA9008E512D /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
 			productName = KeyboardShortcuts;
+		};
+		820F04CF2C94C886003C2033 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 820F04CE2C94C886003C2033 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
